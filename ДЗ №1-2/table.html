@@ -1,0 +1,245 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Show table</title>
+    <style>
+        html, body 
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        header
+        {
+            width: 100%;
+            height: 250px;
+            background-color: #ddcae2;
+            text-align: center;
+            color: #067034;
+            font-family: Poppins, Arial;
+        }
+        .headerText
+        {
+            padding-top: 70px;
+        }
+        nav
+        {
+            text-align: center;
+            width: 100%;
+            background-color: #067034;
+        }
+        .navList
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 0px;
+            color: #ddcae2;
+            font-size: 25px;
+            font-family: Poppins, Arial;
+            overflow: hidden;
+        }
+        li.navListElement
+        {
+            display: inline;
+            float: left;
+        }
+        a.navLink
+        {
+            color: #ddcae2;
+            text-decoration: none;
+            display: block;
+            padding: 6px;
+        }
+        .navLink
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        a.navLink:hover
+        {
+            background-color: #ddcae2;
+            color: #067034;
+            border: 1px solid;
+            border-color: #067034;
+        }
+        main
+        {
+            background-color: #FFFDD0;
+            color: maroon;
+            font-family: Poppins, Arial;
+        }
+        .tableData
+        {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 100%;
+            
+        }
+        td, tr 
+        {
+            border: 1px solid black;
+            word-wrap: break-word;
+        }
+        th.headerOfTheHeader
+        {
+            text-align: center;
+            background-color: maroon;
+            color: antiquewhite;
+        }
+        table
+        {
+            table-layout: fixed;
+            width: 90%;
+            border: 1px solid black;
+        }
+        thead
+        {
+            background: #1E8449;
+            color: yellow;
+            font-weight: bolder;
+        }
+        /* не нашел лучшего способа сделать "стилизацию" таблицы со сменными цветами рядков через один, наверное точно
+        есть способы лучше но whatever*/
+        tr.styledRow
+        {
+            background: #F0B27A;
+        }
+        footer
+        {
+            margin-top: -17px;
+            width: 100%;
+            height: 50px;
+            background-color: #067034;
+            text-align: left;
+            font-family: Poppins, Arial;
+            color: #ddcae2;
+        }
+        p.footerText
+        {
+            padding-left: 15px;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <p class="headerText">
+                <h1>table.html</h1>
+                <h2><i>We show tables</i></h2>
+        </p>
+    </header>
+<!-- navigation bar -->
+    <nav>
+        <ul class="navList">
+            <li class="navListElement">
+                <a class="navLink" href="#">Home page</a>
+            </li>
+            <li class="navListElement">
+                <a class="navLink" href="#">Contact us</a>
+            </li>
+            <li class="navListElement">
+                <a class="navLink" href="#">About us</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="tableData">
+            <!-- наблица с name элементов формы. так бы выглядела запись в БД, наверное-->
+            <!-- не совсем понял тэг tfoot и его отличие от tbody, поэтому не использовал в этой работе -->
+            <table align="center">
+                <thead>
+                    <th class="headerOfTheHeader" colspan="10">
+                        DATA:
+                    </th>
+                    <tr>
+                        <td>NUMBER</td>
+                        <td>userName</td>
+                        <td>userSurname</td>
+                        <td>userEmail</td>
+                        <td>userDate</td>
+                        <td>radio.Value</td>
+                        <td>productId</td>
+                        <td>userFeedback</td>
+                        <td>userScreenshot</td>
+                        <td>messagesAgree</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Nikita</td>
+                        <td>Polshcha</td>
+                        <td>thisismyemail@example.com</td>
+                        <td>08.02.2022</td>
+                        <td>anotherProblem</td>
+                        <td>ID228228228228228</td>
+                        <td>THIS WEBSITE IS THE GREATEST OMG!!111!1!!1!11</td>
+                        <td>screen.png</td>
+                        <td>checked</td>
+                    </tr>
+                    <tr class="styledRow">
+                        <td>2.</td>
+                        <td>HATER</td>
+                        <td>HATER</td>
+                        <td>ihatethis@hell.com</td>
+                        <td>01.01.0666</td>
+                        <td>notWorking</td>
+                        <td>ID000000000000000</td>
+                        <td>THIS FR**KING PAGE IS SH*T!</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Steve</td>
+                        <td>Jobs</td>
+                        <td>appleghost@apple.us</td>
+                        <td>05.10.2011</td>
+                        <td>bug</td>
+                        <td>ID000001234567890</td>
+                        <td>I found a bug with your form in safari!</td>
+                        <td>-</td>
+                        <td>checked</td>
+                    </tr>
+                    <tr class="styledRow">
+                        <td>4.</td>
+                        <td>Paul</td>
+                        <td>Smith</td>
+                        <td>ordinarycust0mer@gmail.com</td>
+                        <td>08.02.2022</td>
+                        <td>anotherProblem</td>
+                        <td>ID727940128496028</td>
+                        <td>Could you send me the latest updates?</td>
+                        <td>-</td>
+                        <td>checked</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Alisher</td>
+                        <td>Morgenstern</td>
+                        <td>cadillac@luxuary.uae</td>
+                        <td>08.02.2022</td>
+                        <td>anotherProblem</td>
+                        <td>ID666666666666666</td>
+                        <td>I WANT TO ADD MY SONGS TO YOUR WEBSITE</td>
+                        <td>pic.png</td>
+                        <td>checked</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p class="footerText">Copyright: Nikita Polshcha&copy;<br>
+        Hillel School student</p>
+    </footer>
+    
+</body>
+</html>

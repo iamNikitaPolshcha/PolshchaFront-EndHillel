@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>My portfolio</title>
+    <style>
+        html, body 
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        header
+        {
+            width: 100%;
+            height: 250px;
+            background-color: lightgrey;
+            text-align: center;
+            
+        }
+        .headerText
+        {
+            padding-top: 70px;
+        }
+        nav
+        {
+            text-align: center;
+            width: 100%;
+            background-color: grey;
+        }
+        .navList
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 0px;
+            color: lightgrey;
+            font-size: 25px;
+            font-family: Poppins, Arial;
+            overflow: hidden;
+        }
+        li.navListElement
+        {
+            display: inline;
+            float: left;
+        }
+        a.navLink
+        {
+            color: lightgrey;
+            text-decoration: none;
+            display: block;
+            padding: 6px;
+        }
+        .navLink
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        a.navLink:hover
+        {
+            background-color: lightgrey;
+            color: grey;
+        }
+        section
+        {
+            text-align: center;
+            font-family: Poppins, Arial;
+        }
+    footer
+    {
+        width: 100%;
+        height: 50px;
+        background-color: grey;
+        text-align: left;
+        font-family: Poppins, Arial;
+        color: lightgrey;
+    }
+    p.footerText
+    {
+        padding-left: 15px;
+    }
+    div.portfolioWorksDiv
+    {
+        display: inline-block;
+        width: 25%;
+        margin: 25px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <p class="headerText">
+            <font color="grey" face="Poppins, Arial">
+                <h1>Nikita Polshcha</h1>
+                <h2>Student's portfolio</h2>
+            </font>
+        </p>
+    </header>
+    <!-- navigation bar (пока с 3мя кнопками) -->
+    <nav>
+        <ul class="navList">
+            <li class="navListElement">
+                <a class="navLink" href="#">Home</a>
+            </li>
+            <li class="navListElement">
+                <a class="navLink" href="#">Contacts</a>
+            </li>
+            <li class="navListElement">
+                <a class="navLink" href="#aboutMeInfo">About me</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <!-- section with projects: (random images for now)-->
+            <section>
+              <h2>My projects:</h2>
+              <div class="portfolioWorksDiv">
+                  <h2><a href="form.html" target="_blank">
+                      <img src="images/website1.png" alt="website1" width="75%"><br>
+                      Website to collect data
+                    </a></h2>
+              </div>
+              <div class="portfolioWorksDiv">
+                <h2><a href="table.html" target="_blank">
+                    <img src="images/website2.png" alt="website2" width="75%"><br>
+                    Website to display data
+                </a></h2>
+              </div>
+            </section>
+            <hr color="grey" >
+            <!-- section "about me":-->
+            <section id="aboutMeInfo">
+              <h2>Some information about me:</h2>
+              <img src="images/my-Photo.jpg" alt="my-Photo" width="550px">
+                <p>Hi there! My name is <strong>Nikita</strong> and I'm eighteen years old. Nice to meet you here!</p>
+                <p>I'm getting my Software Engineering degree in my hometown's university – <strong>NTU "Dnipro Polytechnic</strong>".
+                I'm also studying in the Front-End class to make some cool websites in future.</p>
+                <p>(some additional info here idk)</p>
+            </section>
+          </div>
+    </main>
+    <footer>
+        <p class="footerText">Copyright: Nikita Polshcha&copy;<br>
+        Hillel School student</p>
+    </footer>
+</body>
+</html>

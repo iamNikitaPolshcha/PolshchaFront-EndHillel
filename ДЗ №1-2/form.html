@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Collect forms</title>
+    <style>
+        html, body 
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        header
+        {
+            width: 100%;
+            height: 250px;
+            background-color: #FFFDD0;
+            text-align: center;
+            color: maroon;
+            font-family: Poppins, Arial;
+        }
+        .headerText
+        {
+            padding-top: 70px;
+        }
+        nav
+        {
+            text-align: center;
+            width: 100%;
+            background-color: maroon;
+        }
+        .navList
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 0px;
+            color: #FFFDD0;
+            font-size: 25px;
+            font-family: Poppins, Arial;
+            overflow: hidden;
+        }
+        li.navListElement
+        {
+            display: inline;
+            float: left;
+        }
+        a.navLink
+        {
+            color: #FFFDD0;
+            text-decoration: none;
+            display: block;
+            padding: 6px;
+        }
+        .navLink
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        a.navLink:hover
+        {
+            background-color: #FFFDD0;
+            color: maroon;
+            border: 1px solid;
+            border-color: maroon;
+        }
+        main
+        {
+            background-color: #FFFDD0;
+            color: maroon;
+            font-family: Poppins, Arial;
+        }
+        form
+        {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        label
+        {
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        input
+        {
+            background-color: #FFFDD0;
+            color: maroon;
+            font-family: Poppins, Arial;
+            border-color: maroon;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        textarea
+        {
+            background-color: #FFFDD0;
+            color: maroon;
+            font-family: Poppins, Arial;
+            border-color: maroon;
+            font-weight: bold;
+        }
+        button
+        {
+            background-color: #FFFDD0;
+            color: maroon;
+            font-family: Poppins, Arial;
+            border-color: maroon;
+            font-weight: bold;
+        }
+        footer
+        {
+            margin-top: -17px;
+            width: 100%;
+            height: 50px;
+            background-color: maroon;
+            text-align: left;
+            font-family: Poppins, Arial;
+            color: #FFFDD0;
+        }
+        p.footerText
+        {
+            padding-left: 15px;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <p class="headerText">
+                <h1>form.html</h1>
+                <h2><i>We collect forms</i></h2>
+        </p>
+    </header>
+<!-- navigation bar -->
+    <nav>
+        <ul class="navList">
+            <li class="navListElement">
+                <a class="navLink" href="#">Home page</a>
+            </li>
+            <li class="navListElement">
+                <a class="navLink" href="#">Contact us</a>
+            </li>
+            <li class="navListElement">
+                <a class="navLink" href="#">About us</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form action="" name="form-one">
+            <label for="userName">What's your name?</label>
+            <label for="userSurname">What's your surname?</label><br>
+
+            <input name="userName" type="text" required>
+            <input name="userSurname" type="text" required><br><br>
+
+            <label for="userEmail">Input your email so we could contact you:</label><br>
+            <input name="userEmail" type="email" size="50%" required placeholder="sophie@example.com"><br><br>
+
+            <label for="userDate">When was the problem found?</label>
+            <input name="userDate" type="date" required><br><br>
+
+            <label for="">What is your complaint about?:</label><br>
+            <input type="radio" id="complaintChoise1" name="complaint" value="bug">
+            <label for="complaintChoise1">I've found a bug!</label><br>
+
+            <input type="radio" id="complaintChoise2" name="complaint" value="notWorking">
+            <label for="complaintChoise2">The product is not working</label><br>
+
+            <input type="radio" id="complaintChoise3" name="complaint" value="anotherProblem" checked>
+            <label for="complaintChoise3">I have another problem</label><br><br>
+
+            <label for="productId">Input your unique PRODUCT IT:</label><br>
+            <input name="productId" type="password" size="50%"><br><br>
+
+            <label for="userFeedback">Please, give us your feedback or describe your problem:</label><br>
+            <textarea name="userFeedback" id="" cols="45" rows="10" required></textarea><br>
+
+            <label for="userScreenshot">Attach a screenshot of your problem if you want:</label>
+            <!--форму и цвет именно этой кнопки не смог изменить, увы(-->
+            <input type="file" accept="image/png, image/jpeg, image/jpg"><br><br>
+
+            <input type="checkbox" id="messagesAgree" name="messagesAgree">
+            <label for="messagesAgree">Yes, I want to receive messages from you (news, updates)</label><br>
+            <input type="checkbox" id="personalAgree" name="personalAgree" required>
+            <label for="personalAgree">Yes, I agree that you will collect my personal data (email, name etc.)</label><br>
+            <button type="reset">Reset the form</button>
+            <button type="submit">Submit and send!</button>
+        </form>
+    </main>
+    <footer>
+        <p class="footerText">Copyright: Nikita Polshcha&copy;<br>
+        Hillel School student</p>
+    </footer>
+</body>
+</html>
