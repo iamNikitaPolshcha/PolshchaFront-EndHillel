@@ -1,0 +1,147 @@
+body
+{
+    font-family:'Pt Sans', 'Arial';
+    background-color: #f0f8ff;
+}
+header
+{
+    width: 100%;
+    padding-top: 50px;
+}
+#profile-pic
+{
+    width: 200px;
+    border: 1px black solid transparent;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.header-text
+{
+    background-color: #bfecff;
+    font-size: 17px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.first-section
+{
+    position: relative;
+    text-align: center;
+    height: 350px;
+    margin-bottom: 50px;
+}
+#button-left
+{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #73c2fb;
+    text-align: center;
+
+}
+#button-right
+{
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    height: 70px;
+    width: 70px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #73c2fb;
+    text-align: center;
+}
+#button-left:hover, #button-right:hover
+{
+    background-color: #0892d0;
+}
+.projects-showcase
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%; 
+    background-color: #bfecff;
+    margin-right: 5px;
+    height: 350px;
+}
+.projects-showcase>img
+{
+    margin-top: 10px;
+    max-width: 80%;
+    max-height:80%;
+}
+.certificates-showcase
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    background-color: #bfecff;
+    height: 350px;
+}
+.certificates-showcase>img
+{
+    margin-top: 10px;
+    max-width: 80%;
+    max-height:80%;
+}
+.showcase-name
+{
+    padding-top: 20px;
+    display: block;
+    font-style: italic;
+    color: grey;
+}
+.second-section
+{
+    text-align: center;
+    height: 350px;
+    margin-bottom: 50px;
+}
+.skills-div
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%; 
+    margin-right: 5px;
+    height: 350px;
+}
+.skills-div>h3
+{
+    text-decoration: underline;
+    font-style: italic;
+}
+.line-skills
+{
+    margin: 50px;
+}
+.line-skills>span
+{
+    text-shadow: #0073cf 1px 1px 5px;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    color: #000000;
+    background-color: #bfecff;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 50px;
+    width: 45%;
+
+}
+.buttom-text-wrapper
+{
+    display: inline-block;
+    line-height: normal;
+    vertical-align: top;
+    width: 45%;
+    background-color: #bfecff;
+}
+
