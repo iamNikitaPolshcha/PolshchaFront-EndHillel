@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'bbook';
+    src: url('../fonts/bebasneue-book-webfont.woff');
+}
+@font-face {
+    font-family: 'bbold';
+    src: url('../fonts/BebasNeue-Bold.woff');
+}
+@font-face {
+    font-family: 'plight';
+    src: url('../fonts/poppins-light.woff');
+}

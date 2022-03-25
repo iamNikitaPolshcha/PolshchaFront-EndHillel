@@ -1,147 +1,220 @@
-body
+.left-yellow-strip
 {
-    font-family:'Pt Sans', 'Arial';
-    background-color: #f0f8ff;
+    background-color: #ffca05;
+    width: 4%;
 }
+
+.yellow-line-in-text
+{
+    color: #ffca05;
+    font-weight: bold;
+    letter-spacing: -2px;
+    font-size: 20px;
+    margin: 0px;
+}
+
 header
 {
+    display: flex;
+    justify-content: row;
     width: 100%;
-    padding-top: 50px;
+    height: 55vh;
+    min-height: 350px;
 }
-#profile-pic
-{
-    width: 200px;
-    border: 1px black solid transparent;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-}
-.header-text
-{
-    background-color: #bfecff;
-    font-size: 17px;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-}
-.first-section
-{
-    position: relative;
-    text-align: center;
-    height: 350px;
-    margin-bottom: 50px;
-}
-#button-left
-{
-    position: absolute;
-    top: 40%;
-    left: 3%;
-    width: 70px;
-    height: 70px;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background-color: #73c2fb;
-    text-align: center;
 
-}
-#button-right
+header>img
 {
-    position: absolute;
-    top: 40%;
-    right: 3%;
-    height: 70px;
-    width: 70px;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background-color: #73c2fb;
-    text-align: center;
+    max-width: 40%;
+    width: 21%;
+    height: 55vh;
+    min-height: 350px;
 }
-#button-left:hover, #button-right:hover
+
+.header-text-wrapper
 {
-    background-color: #0892d0;
+    margin-left: 3%;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    font-family: 'bbook';
+    letter-spacing: 5px;
+    font-style: normal;
+    font-size: 25px;
 }
-.projects-showcase
+
+.header-text-wrapper>h1
 {
-    display: inline-block;
-    vertical-align: top;
-    width: 45%; 
-    background-color: #bfecff;
-    margin-right: 5px;
-    height: 350px;
-}
-.projects-showcase>img
-{
-    margin-top: 10px;
-    max-width: 80%;
-    max-height:80%;
-}
-.certificates-showcase
-{
-    display: inline-block;
-    vertical-align: top;
-    width: 45%;
-    background-color: #bfecff;
-    height: 350px;
-}
-.certificates-showcase>img
-{
-    margin-top: 10px;
-    max-width: 80%;
-    max-height:80%;
-}
-.showcase-name
-{
-    padding-top: 20px;
-    display: block;
-    font-style: italic;
-    color: grey;
-}
-.second-section
-{
-    text-align: center;
-    height: 350px;
-    margin-bottom: 50px;
-}
-.skills-div
-{
-    display: inline-block;
-    vertical-align: top;
-    width: 45%; 
-    margin-right: 5px;
-    height: 350px;
-}
-.skills-div>h3
-{
-    text-decoration: underline;
-    font-style: italic;
-}
-.line-skills
-{
-    margin: 50px;
-}
-.line-skills>span
-{
-    text-shadow: #0073cf 1px 1px 5px;
-    font-size: 17px;
     font-weight: bold;
-    display: inline-block;
-    color: #000000;
-    background-color: #bfecff;
-    border: 1px solid transparent;
-    padding: 10px;
-    border-radius: 50px;
-    width: 45%;
-
+    margin: 0;
 }
-.buttom-text-wrapper
+
+.header-text-wrapper>h1#h1-2
 {
-    display: inline-block;
-    line-height: normal;
-    vertical-align: top;
-    width: 45%;
-    background-color: #bfecff;
+   font-family: 'bbold';
 }
 
+.header-text-wrapper>h3
+{
+    font-size: 20px;
+}
+
+main
+{
+    display: flex;
+    justify-content: row;
+    width: 100%;
+    font-family: 'plight';
+    font-size: 13px;
+}
+
+.main-h2
+{
+    font-family: 'bbold';
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.left-section-main
+{
+    background-color: #292934;
+    color: white;
+    max-width: 40%;
+    width: 21%;
+}
+
+.about-me-part
+{
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-right: 10%;
+}
+
+.about-me-part>p
+{
+    letter-spacing: 2px;
+}
+
+.right-section-main
+{
+    background-color: #22222d;
+    color: white;
+    width: 75%;
+}
+
+.education-part
+{
+    padding-left: 4%;
+    padding-top: 20px;
+    margin-bottom: 75px;
+}
+
+.education-part-additional
+{
+    display: flex;
+    justify-content: row;
+}
+
+.major
+{
+    padding-right: 4%;
+}
+
+.experience-part
+{
+    margin-bottom: 75px;
+}
+
+.job-position
+{
+    padding-left: 4%;
+}
+
+.job-time
+{
+    color: #000;
+    background-color: #ffca05;
+    border: 1px solid transparent #fff;
+    border-radius: 10%;
+    margin: 5px 5px 5px 0;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.expertice-section
+{
+    padding-left: 4%;
+}
+
+.contact-info-part
+{
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-right: 10%;
+}
+
+.hobbies-part
+{
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-right: 10%;
+}
+
+.hobbies-additional
+{
+    display: flex;
+    justify-content: row;
+}
+
+.hobbies-element-wrapper
+{
+    width: 100%;
+    text-align: center;
+}
+
+.hobbies-element-wrapper>img
+{
+    width: 30px;
+}
+
+/*progress bars (code from the internet)*/
+.progressbar-wrapper
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+  }
+  
+@property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+  }
+  div[role="progressbar"] {
+    --size: 12rem;
+    --fg: #ffca05;
+    --bg: white;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, #22222d 80%, transparent 0 99.9%, #22222d 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family:'plight';
+    font-size: 10px;
+    color: white;
+  }
+  
+  div[role="progressbar"]
+  {
+    text-align: center;  
+  }
