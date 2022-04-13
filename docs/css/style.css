@@ -1,220 +1,113 @@
-.left-yellow-strip
+.wrapper
 {
-    background-color: #ffca05;
-    width: 4%;
+    min-width: 1280px;
 }
 
-.yellow-line-in-text
+.header
 {
-    color: #ffca05;
-    font-weight: bold;
-    letter-spacing: -2px;
-    font-size: 20px;
-    margin: 0px;
+    height: 88px;
+    padding: 0 135px 0 135px;
+    display: flex;
+    justify-content: space-between;
 }
 
-header
+.logo-wrapper
+{
+    margin-top: 22px;
+    height: 44px;
+    font-size: 44px;
+    display: flex;
+}
+
+.navigation__list
 {
     display: flex;
-    justify-content: row;
-    width: 100%;
-    height: 55vh;
-    min-height: 350px;
+    height: 88px;
 }
 
-header>img
+.navigation__list>li:hover
 {
-    max-width: 40%;
-    width: 21%;
-    height: 55vh;
-    min-height: 350px;
+    border-bottom: 3px solid #5094f2;
 }
 
-.header-text-wrapper
+.navigation__list__element
 {
-    margin-left: 3%;
-    padding-top: 100px;
-    padding-bottom: 125px;
-    font-family: 'bbook';
-    letter-spacing: 5px;
-    font-style: normal;
-    font-size: 25px;
-}
-
-.header-text-wrapper>h1
-{
-    font-weight: bold;
-    margin: 0;
-}
-
-.header-text-wrapper>h1#h1-2
-{
-   font-family: 'bbold';
-}
-
-.header-text-wrapper>h3
-{
-    font-size: 20px;
-}
-
-main
-{
-    display: flex;
-    justify-content: row;
-    width: 100%;
-    font-family: 'plight';
-    font-size: 13px;
-}
-
-.main-h2
-{
-    font-family: 'bbold';
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin-bottom: 35px;
-}
-
-.left-section-main
-{
-    background-color: #292934;
-    color: white;
-    max-width: 40%;
-    width: 21%;
-}
-
-.about-me-part
-{
-    padding-left: 10%;
-    padding-top: 20px;
-    padding-right: 10%;
-}
-
-.about-me-part>p
-{
-    letter-spacing: 2px;
-}
-
-.right-section-main
-{
-    background-color: #22222d;
-    color: white;
-    width: 75%;
-}
-
-.education-part
-{
-    padding-left: 4%;
-    padding-top: 20px;
-    margin-bottom: 75px;
-}
-
-.education-part-additional
-{
-    display: flex;
-    justify-content: row;
-}
-
-.major
-{
-    padding-right: 4%;
-}
-
-.experience-part
-{
-    margin-bottom: 75px;
-}
-
-.job-position
-{
-    padding-left: 4%;
-}
-
-.job-time
-{
-    color: #000;
-    background-color: #ffca05;
-    border: 1px solid transparent #fff;
-    border-radius: 10%;
-    margin: 5px 5px 5px 0;
-    padding: 5px;
-    font-weight: bold;
-}
-
-.expertice-section
-{
-    padding-left: 4%;
-}
-
-.contact-info-part
-{
-    padding-left: 10%;
-    padding-top: 20px;
-    padding-right: 10%;
-}
-
-.hobbies-part
-{
-    padding-left: 10%;
-    padding-top: 20px;
-    padding-right: 10%;
-}
-
-.hobbies-additional
-{
-    display: flex;
-    justify-content: row;
-}
-
-.hobbies-element-wrapper
-{
-    width: 100%;
     text-align: center;
+    padding-top: 30px;
+    width: 100px;
 }
 
-.hobbies-element-wrapper>img
+.intro-section
 {
-    width: 30px;
+    background-image: url("../img/intro-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 20px 50px 0 175px;
 }
 
-/*progress bars (code from the internet)*/
-.progressbar-wrapper
+.intro-section__text
+{
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+.intro-section__button
 {
     display: flex;
-    justify-content: space-around;
-    width: 80%;
+    justify-content: space-between;
+    padding-top: 5px;
+    background-color: #5094f2;
+    border: 1px solid transparent;
+    height: 35px;
+    width: 160px;
 }
 
-@keyframes growProgressBar {
-    0%, 33% { --pgPercentage: 0; }
-    100% { --pgPercentage: var(--value); }
-  }
-  
-@property --pgPercentage {
-    syntax: '<number>';
-    inherits: false;
-    initial-value: 0;
-  }
-  div[role="progressbar"] {
-    --size: 12rem;
-    --fg: #ffca05;
-    --bg: white;
-    --pgPercentage: var(--value);
-    animation: growProgressBar 3s 1 forwards;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    background: 
-      radial-gradient(closest-side, #22222d 80%, transparent 0 99.9%, #22222d 0),
-      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
-      ;
-    font-family:'plight';
-    font-size: 10px;
-    color: white;
-  }
-  
-  div[role="progressbar"]
-  {
-    text-align: center;  
-  }
+.intro-section__button:hover
+{
+    background-color: #2477ed;
+}
+
+.contrary-section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 125px 0 125px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cotrary-section__element
+{
+    text-align: center;
+    width: 300px;
+}
+
+.shopping-cart-section
+{
+    display: flex;
+    padding: 0 135px 20px 135px;
+}
+
+.shopping-cart-section__description
+{
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+.shopping-cart-section__description>p
+{
+    line-height: 40px;
+}
+
+.footer
+{
+    vertical-align: middle;
+    text-align: center;
+    height: 86px;
+    border-top: 2px solid #808080;
+}
+.footer>p
+{
+    margin: 33px 0;
+}

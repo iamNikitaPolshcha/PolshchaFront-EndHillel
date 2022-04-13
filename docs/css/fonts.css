@@ -1,12 +1,14 @@
 @font-face {
-    font-family: 'bbook';
-    src: url('../fonts/bebasneue-book-webfont.woff');
+    font-family: 'myriad-pro__bold';
+    src: url('../fonts/MYRIADPRO-BOLD.woff');
 }
+
 @font-face {
-    font-family: 'bbold';
-    src: url('../fonts/BebasNeue-Bold.woff');
+    font-family: 'myriad-pro__semi-bold';
+    src: url('../fonts/MYRIADPRO-SEMIBOLD.woff');
 }
+
 @font-face {
-    font-family: 'plight';
-    src: url('../fonts/poppins-light.woff');
+    font-family: 'myriad-pro__regular';
+    src: url('../fonts/MYRIADPRO-REGULAR.woff');
 }

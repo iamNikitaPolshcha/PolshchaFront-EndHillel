@@ -1,0 +1,55 @@
+/* ADDITIONAL (utility(?)) classes */
+.ml-10
+{
+    margin-left: 10px;
+}
+
+.mb-15
+{
+    margin-bottom: 15px;
+}
+
+.mb-30
+{
+    margin-bottom: 30px;
+}
+
+.fs-15
+{
+    font-size: 15px;
+}
+
+.fs-17
+{
+    font-size: 17px;
+}
+
+.fs-20
+{
+    font-size: 20px;
+}
+
+.fs-44
+{
+    font-size: 44px;
+}
+
+.txt-clr-grey
+{
+    color: #808080;
+}
+
+.txt-clr-white
+{
+    color: #fff;
+}
+
+.txt-clr-5094f2
+{
+    color: #5094f2;
+}
+
+.fnt-myriad-r
+{
+    font-family: 'myriad-pro__regular';
+}
