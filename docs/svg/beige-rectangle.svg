@@ -1,0 +1,16 @@
+<svg id="beige-rectangle"
+width="377" 
+height="813"
+xmlns="http://www.w3.org/2000/svg">
+
+    <style type="text/css" >
+      <![CDATA[
+        rect
+        {
+            fill: #e5bb8d;
+        }
+      ]]>
+    </style>
+
+    <rect x="0" y="0" width="377" height="813"/>
+</svg>

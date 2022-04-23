@@ -5,78 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/utility.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Prechu</title>
+    <link rel="stylesheet" href="css/utility.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Games</title>
 </head>
-<body class="fnt-myriad-r">
-    <div class="wrapper">
-        <header class="header">
-            <div class="logo-wrapper">
-                    <object data="./svg/logo.svg" type=""></object>
-                <h1 class="ml-10">Prechu</h1>
+<body>
+    <header class="header">
+        <img  src="img/default-logo.png" alt="default-logo.png">
+        <img width="24px" height="32px" src="img/menu-icon.png" alt="menu-icon.png">
+    </header>
+    <section class="intro-section txt-clr-white">
+        <h1 class="intro-section__heading fnt-montserrat-reg">PC gaming news, reviews, and guides</h1>
+        <nav class="nav-menu">
+            <ul class="nav-menu__list fnt-open-s-reg">
+                <li class="nav-menu__list__element">about us |</li>
+                <li class="nav-menu__list__element">news |</li>
+                <li class="nav-menu__list__element">reviews |</li>
+                <li class="nav-menu__list__element">articles |</li>
+                <li class="nav-menu__list__element">#future</li>
+            </ul>
+
+            <button class="button btn-white txt-clr-white btn-16">learn more</button>
+        </nav>
+    </section>
+    <section class="benefits-section pad-80">
+        <div class="benefits-section__heading-and-svg">
+            <object class="" data="./svg/blue-circle.svg" type="image/svg+xml"></object>
+            <h1 class="benefits-section__heading fnt-ubuntu-reg">Benefits of <span class="heading-bold">Video Games</span> For Kids & Adults</h1>
+        </div>
+        <div class="benefits-section__middle-part-wrapper">
+            <img class="benefits-section__image1 ml-150" src="./img/controller1.jpg" alt="controller2.jpg">
+            <div class="benefits-section__card-and-image">
+                <img class="benefits-section__image2" src="./img/controller2.jpg" alt="controller1.jpg">
+                <div class="card pad-85-35 card-grey card-big mr-150 mt-200">
+                    <h2 class="heading-36 mb-30 fnt-ubuntu-reg">Healthy brain stimulation</h2>
+                    <p class="card__text fnt-open-s-thin">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                        anim id est laborum.
+                    </p>
+                    <button class="button btn-blue txt-clr-white btn-14">learn more</button>
+                </div>
             </div>
-            <nav class="navigation">
-                <ul class="navigation__list txt-clr-grey fs-20">
-                    <li class="navigation__list__element">Home</li>
-                    <li class="navigation__list__element">Products</li>
-                    <li class="navigation__list__element">Services</li>
-                    <li class="navigation__list__element">Contact</li>
-                </ul>
-            </nav>
-        </header>
-        <section class="intro-section">
-            <img src="img/iphone.png" alt="iphone.png">
-            <div class="intro-section__text txt-clr-white">
-                <h1 class="mb-15 fs-44">Lorem Ipsum is simply</h1>
-                <p class="mb-15 fs-20">dummy text of the</p>
-                <p class="mb-15 fs-20">printing & typesetting</p>
-                <button class="intro-section__button fs-20 ml-10 txt-clr-white">
-                    <object class="ml-10" data="./svg/tick.svg" type=""></object>
-                    Sign up now
-                </button>
+            <div class="benefits-section__bottom-part-wrapper">
+                <object class="" data="./svg/beige-circle.svg" type="image/svg+xml"></object>
             </div>
-        </section>
-        <section class="contrary-section">
-            <div class="cotrary-section__element">
-                <object class="mb-15" data="./svg/pencil.svg" type=""></object>
-                <h3 class="txt-clr-5094f2 fs-17">Contrary to popular</h3>
-               <p class="fs-15 txt-clr-grey">Lorem Ipsum is not simply random text. It has roots in a piece</p>
+        </div>
+    </section>
+    <section class="benefits-list-section">
+        <div class="benefits-list-section__left-black"></div>
+        <div class="benefits-list-section__cards-wrapper">
+            <div class="card card-wide card-white pad-25">
+                <h2 class="heading-36 heading-bold mb-30 fnt-ubuntu-reg">Video games</h2>
+                <p class="card__text fnt-open-s-thin">Sample text. Click to select the text box. 
+                    Click again or double click to start editing the text.</p>
             </div>
-            <div class="cotrary-section__element">
-                <object class="mb-15" data="./svg/tv.svg" type=""></object>
-                <h3 class="txt-clr-5094f2 fs-17">Contrary to popular</h3>
-                <p class="fs-15 txt-clr-grey">Lorem Ipsum is not simply random text. It has roots in a piece</p>
+            <div class="card card-wide card-white pad-25">
+                <h2 class="heading-36 heading-bold mb-30 fnt-ubuntu-reg">Brain stimulation</h2>
+                <p class="card__text fnt-open-s-thin">Sample text. Click to select the text box. 
+                    Click again or double click to start editing the text.</p>
             </div>
-            <div class="cotrary-section__element">
-                <object class="mb-15" data="./svg/cart.svg" type=""></object>
-                <h3 class="txt-clr-5094f2 fs-17">Contrary to popular</h3>
-                <p class="fs-15 txt-clr-grey">Lorem Ipsum is not simply random text. It has roots in a piece</p>
+            <div class="card card-wide card-white pad-25">
+                <h2 class="heading-36 heading-bold mb-30 fnt-ubuntu-reg">Stress relief</h2>
+                <p class="card__text fnt-open-s-thin">Sample text. Click to select the text box. 
+                    Click again or double click to start editing the text.</p>
             </div>
-        </section>
-        <section class="shopping-cart-section">
-            <div class="shopping-cart-section__image">
-                <h1 class="txt-clr-grey fs-44 mb-30">The Shopping cart</h1>
-                <img src="img/cart.png" alt="shopping-cart">
+        </div>
+    </section>
+    <section class="top-pc-games-section pad-80">
+        <div class="top-pc-games-section__image-wrapper">
+            <img class="top-pc-games-section__image" src="./img/xccx.jpg" alt="xccx.jpg">
+        </div>
+        <div class="card__wrapper">
+            <div class="card card-small card-white pad-85-35">
+                <h2 class="heading-36 mb-30 fnt-ubuntu-reg">Top PC Games</h2>
+                <p class="card__text mb-30 fnt-open-s-reg fnt-style-italic">Auctor augue mauris augue neque gravida in fermentum et. 
+                    Feugiat in fermentum posuere urna nec tincidunt praesent semper.</p>
+                <button class="button btn-blue btn-14 txt-clr-white mt-50">learn more</button>
             </div>
-            <div class="shopping-cart-section__description txt-clr-grey">
-                <h2 class="mb-15 fs-20">Some Bullet text here</h2>
-                <p class="fs-15">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ducimus ratione expedita velit asperiores, rem laudantium aliquam, 
-                    obcaecati itaque, quia corrupti similique ipsum. Dolores quo nostrum error sunt ea commodi id.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Voluptatum error nostrum dolorum et ullam hic ipsa praesentium alias in quod vero, 
-                    quibusdam optio consequuntur cum. Deleniti dolor voluptatibus atque omnis!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Non atque minima, cupiditate voluptatem ad at voluptatum harum quisquam, 
-                    nemo aliquam unde, explicabo quia! In ipsam perferendis quaerat neque fugiat molestiae!
-                </p>
+        </div>
+        <div class="top-pc-games-section__background-wrapper"></div>
+    </section>
+    <section class="gadgets-section pad-80">
+        <h1 class="gadgets-section__heading heading-bold mb-30 txt-clr-white fnt-ubuntu-reg">Gadgets for your game</h1>
+        <button class="button btn-16-2 btn-white txt-clr-white">view all</button>
+    </section>
+    <section class="free-games-section pad-80">
+        <div class="free-games-section__text">
+            <h1 class="heading-36 mb-30 fnt-ubuntu-reg">Looking for games to download for free?</h1>
+            <p class="card__text fnt-open-s-thin">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <button class="button btn-blue btn-16-2 txt-clr-white">read more</button>
+        </div>
+        <div class="free-games-section__image-part">
+            <img class="free-games-section__image-part__image" src="img/xccx.jpg" alt="xccx.jpg">
+            <img class="free-games-section__image-part__image" src="img/girl-vr.jpg" alt="girl-vr.jp">
+            <img class="free-games-section__image-part__image2 ml-150" src="img/boy-controller.jpg" alt="boy-controller.jpg">
+        </div>
+        <div class="free-games-section__image-part__blue-circle__wrapper">
+            <object class="free-games-section__image-part__blue-circle" data="./svg/blue-circle.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="free-games-section__image-part__beige-circle__wrapper">
+            <object class="free-games-section__image-part__beige-circle" data="./svg/beige-circle.svg" type="image/svg+xml"></object>
+        </div>
+    </section>
+    <section class="vr-section">
+        <div class="vr-section__card card pad-85-35 card-white card-small mar-80-80">
+            <h2 class="heading-36 mb-30 fnt-ubuntu-reg">VR-Technologies</h2>
+            <p class="card__text fnt-open-s-thin">
+                Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <button class="button btn-blue txt-clr-white btn-14 mt-50">contact us</button>
+        </div>
+        <object class="vr-section__beige-rectangle" data="./svg/beige-rectangle.svg" type="image/svg+xml"></object>
+        <img class="vr-section__image mt-200" src="img/vr-trio.jpg" alt="vr-trio.jpg">
+    </section>
+    <section class="contact-form-section pad-80">
+        <img class="contact-form-section__image" src="img/contact-form.jpg" alt="contact-form.jpg">
+        <div class="contact-form-section__form-wrapper pad-25">
+            <h2 class="contact-form-section__form-wrapper__heading heading-bold heading-36 mb-30 txt-clr-grey fnt-ubuntu-reg">contact form</h2>
+            <form class="mb-30" action="">
+                <input class="contact-form-section__form-wrapper__input mb-30 form-el fnt-open-s-reg" type="text" placeholder="Enter your Name"> <br>
+
+                <input class="contact-form-section__form-wrapper__input mb-30 form-el fnt-open-s-reg" type="text" placeholder="Enter a valid email adress"> <br>
+
+                <textarea class="contact-form-section__form-wrapper__text-area mb-30 form-el fnt-open-s-reg" name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea> <br>
+
+                <input class="contact-form-section__form-wrapper__submit fnt-open-s-reg" type="submit" value="Submit">
+            </form>
+            <h2 class="contact-form-section__form-wrapper__heading heading-bold heading-36 mb-30 txt-clr-grey fnt-ubuntu-reg">follow us</h2>
+            <div class="contact-form-section__form-wrapper__social-m-wrapper">
+                <object class="contact-form-section__form-wrapper__social-m-wrapper__element" data="./svg/icons8-facebook.svg" type="image/svg+xml"></object>
+                <object class="contact-form-section__form-wrapper__social-m-wrapper__element" data="./svg/icons8-twitter-circled.svg" type="image/svg+xml"></object>
+                <object class="contact-form-section__form-wrapper__social-m-wrapper__element2" data="./svg/instagram-round.svg" type="image/svg+xml"></object>
+                <object class="contact-form-section__form-wrapper__social-m-wrapper__element" data="./svg/icons8-google-plus.svg" type="image/svg+xml"></object>
             </div>
-        </section>
-        <footer class="footer fs-15 txt-clr-grey">
-            <p>Copyright &copy; 2012-2013 cssauthor.com</p>
-        </footer>
-    </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text fnt-open-s-reg txt-clr-white">
+            Sample text. Click to select the text box. 
+            Click again or double click to start editing the text.
+        </p>
+    </footer>
 </body>
 </html>

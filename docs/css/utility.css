@@ -1,55 +1,206 @@
-/* ADDITIONAL (utility(?)) classes */
-.ml-10
+/* FONTS START */
+.fnt-ubuntu-reg
 {
-    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
 }
 
-.mb-15
+.fnt-open-s-thin
 {
-    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
-.mb-30
+.fnt-open-s-reg
 {
-    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
-.fs-15
+.fnt-montserrat-reg
 {
-    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
-.fs-17
+.fnt-style-italic
 {
-    font-size: 17px;
+    font-style: italic;
 }
 
-.fs-20
-{
-    font-size: 20px;
-}
+/* FONTS END */
 
-.fs-44
-{
-    font-size: 44px;
-}
-
-.txt-clr-grey
-{
-    color: #808080;
-}
-
+/* TEXT COLOR START */
 .txt-clr-white
 {
     color: #fff;
 }
 
-.txt-clr-5094f2
+.txt-clr-grey
 {
-    color: #5094f2;
+    color: #4d4d4d;
+}
+/* TEXT COLOR END */
+
+/* MARGIN/PADDING START */
+.ml-150
+{
+    margin-left: 150px;
+}
+.mr-150
+{
+    margin-right: 150px;
+}
+.mt-200
+{
+    margin-top: 200px;
+}
+.mb-30
+{
+    margin-bottom: 30px;
+}
+.mt-50
+{
+    margin-top: 50px;
+}
+.pad-85-35
+{
+    padding: 85px 35px;
+}
+.pad-25
+{
+    padding: 25px;
+}
+.pad-80
+{
+    padding: 80px;
+}
+.mar-80-80
+{
+    margin: 80px 80px;
+}
+/* MARGIN/PADDING END */
+
+/* BUTTON START */
+.button
+{
+    font-family: 'Open Sans', sans-serif;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.fnt-myriad-r
+.btn-14
 {
-    font-family: 'myriad-pro__regular';
+    font-size: 14px;
+    width: 160px;
+}
+
+.btn-16
+{
+    font-size: 16px;
+    width: 234px;
+}
+
+.btn-16-2
+{
+    font-size: 16px;
+    width: 150px;
+}
+
+.btn-white
+{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-white:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-blue
+{
+    background-color: #3a4998;
+    border: 1px solid #3a4998;
+
+}
+.btn-blue:hover
+{
+    background-color: #333;
+}
+
+/* BUTTON END */
+
+/* CARD START */
+.card
+{
+    box-sizing: border-box;
+}
+
+.card-white
+{
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+}
+
+.card-grey
+{
+    background-color: #f2f2f2;
+}
+
+.card-small
+{
+    width: 474px;
+    height: 428px;
+}
+
+.card-big
+{
+    width: 527px;
+    height: 478px;
+}
+
+.card-wide
+{
+    width: 600px;
+    height: 190px;
+    margin-bottom: 20px;
+
+}
+
+.heading-36
+{
+    font-size: 36px;
+}
+
+.card__text
+{
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+
+/* CARD END */
+
+/* HEADING START */
+.heading-bold
+{
+    font-weight: bold;
+}
+
+.heading-regular
+{
+    font-weight: 400;
+}
+/* HEADING END */
+
+.form-el
+{
+    background-color: #f2f2f2;
+    color: #111111;
+    border: transparent;
 }
