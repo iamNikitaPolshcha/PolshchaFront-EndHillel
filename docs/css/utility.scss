@@ -1,0 +1,165 @@
+/*variables [start]*/
+$clr-white: #fff;
+$clr-blue: #3a4998;
+$clr-beige: #e5bb8d;
+$clr-light-beige: #f1d8be;
+$clr-light-grey: #d3d3d3;
+$clr-very-light-blue: #f2f2f2;
+/*variables [end]*/
+
+/*text color [start]*/
+.txt-clr-white
+{
+    color: $clr-white;
+}
+/*text color [end]*/
+
+/*all about fonts and text [start]*/
+.fnt-ubuntu
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.fnt-open-s-thin
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.fnt-open-s-reg
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fnt-montserrat
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fnt-bold
+{
+    font-weight: bold;
+}
+
+.fnt-bold-bold
+{
+    font-weight: 700;
+}
+
+.fnt-60px
+{
+    font-size: 60px;
+}
+
+.fnt-48px
+{
+    font-size: 48px;
+}
+
+.fnt-24px
+{
+    font-size: 24px;
+}
+
+.fnt-20px
+{
+    font-size: 20px;
+}
+
+.fnt-18px
+{
+    font-size: 18px;
+}
+
+.fnt-16px
+{
+    font-size: 16px;
+}
+
+.ltr-sp-2px
+{
+    letter-spacing: 2px;
+}
+
+.ln-hght-20px
+{
+    line-height: 20px;
+}
+
+.ln-hght-35px
+{
+    line-height: 35px;
+}
+/*all about fonts and text [end]*/
+
+/* margins and paddings [start]*/
+.pad-50px-lft-rght
+{
+    padding: 0 50px;
+}
+
+.pad-50px
+{
+    padding: 50px;
+}
+
+.pad-20px
+{
+    padding: 20px;
+}
+
+.mt-50px
+{
+    margin-top: 50px;
+}
+
+.mb-50px
+{
+    margin-bottom: 50px;
+}
+
+.mb-30px
+{
+    margin-bottom: 30px;
+}
+
+.mb-25px
+{
+    margin-bottom: 25px;
+}
+
+.mb-20px
+{
+    margin-bottom: 20px;
+}
+
+.ml-50px
+{
+    margin-left: 50px;
+}
+/* margins and paddings [end]*/
+
+/* buttons [start]*/
+
+.btn
+{
+    height: 56px;
+    width: 231px;
+    border: 1px transparent;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase; 
+    cursor: pointer;
+}
+
+.btn-beige
+{
+    background-color: $clr-beige;
+}
+
+.btn-blue
+{
+    background-color: $clr-blue;
+}
+
+/* buttons [end]*/

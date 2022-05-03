@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,151 +16,305 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Games</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <title>Homework-8</title>
 </head>
 <body>
-    <header class="header">
-        <img  src="img/default-logo.png" alt="default-logo.png">
-        <img width="24px" height="32px" src="img/menu-icon.png" alt="menu-icon.png">
-    </header>
-    <section class="intro-section txt-clr-white">
-        <h1 class="intro-section__heading fnt-montserrat-reg">PC gaming news, reviews, and guides</h1>
-        <nav class="nav-menu">
-            <ul class="nav-menu__list fnt-open-s-reg">
-                <li class="nav-menu__list__element">about us |</li>
-                <li class="nav-menu__list__element">news |</li>
-                <li class="nav-menu__list__element">reviews |</li>
-                <li class="nav-menu__list__element">articles |</li>
-                <li class="nav-menu__list__element">#future</li>
-            </ul>
-
-            <button class="button btn-white txt-clr-white btn-16">learn more</button>
-        </nav>
-    </section>
-    <section class="benefits-section pad-80">
-        <div class="benefits-section__heading-and-svg">
-            <object class="" data="./svg/blue-circle.svg" type="image/svg+xml"></object>
-            <h1 class="benefits-section__heading fnt-ubuntu-reg">Benefits of <span class="heading-bold">Video Games</span> For Kids & Adults</h1>
-        </div>
-        <div class="benefits-section__middle-part-wrapper">
-            <img class="benefits-section__image1 ml-150" src="./img/controller1.jpg" alt="controller2.jpg">
-            <div class="benefits-section__card-and-image">
-                <img class="benefits-section__image2" src="./img/controller2.jpg" alt="controller1.jpg">
-                <div class="card pad-85-35 card-grey card-big mr-150 mt-200">
-                    <h2 class="heading-36 mb-30 fnt-ubuntu-reg">Healthy brain stimulation</h2>
-                    <p class="card__text fnt-open-s-thin">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                        anim id est laborum.
-                    </p>
-                    <button class="button btn-blue txt-clr-white btn-14">learn more</button>
+    <div class="wrapper">
+        <header class="header">
+            <img  src="img/default-logo.png" alt="default-logo.png">
+            <img width="24px" height="32px" src="img/menu-icon.png" alt="menu-icon.png">
+        </header>
+        <section class="intro-section">
+            <div class="intro-section__heading-wrapper pad-20px">
+                <h1 class="fnt-60px txt-clr-white fnt-bold-bold fnt-montserrat">Preparing For Your Success, <br>
+                    We Provide Truly Prominent IT Solutions.</h1>
+            </div>
+            <div class="intro-section__appointment-part pad-20px">
+                <h3 class="fnt-24px fnt-bold txt-clr-white mb-30px fnt-montserrat">Make An Appointment</h3>
+                <p class="fnt-20px txt-clr-white mb-25px ltr-sp-2px ln-hght-30px fnt-open-s-thin">
+                    Get in touch and discover how we can help. We aim to be in touch
+                </p>
+                <div class="intro-section__appointment-part__form-wrapper pad-50px">
+                    <form class="fnt-open-s-reg" action="">
+                        <input name="userName" type="text" placeholder="Enter your Name" required> <br>
+                        <input name="userEmail" type="email" placeholder="Enter a valid email adress" required> <br>
+                        <textarea name="userMessage" id="userMessage" placeholder="Enter your message" required></textarea> <br>
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
             </div>
-            <div class="benefits-section__bottom-part-wrapper">
-                <object class="" data="./svg/beige-circle.svg" type="image/svg+xml"></object>
+        </section>
+        <section class="services-section pad-50px">
+            <h1 class="fnt-48px fnt-bold mb-50px fnt-montserrat">Our Services</h1>
+            <div class="services-section__service-container__wrapper">
+                <div class="services-section__service-container">
+                    <img src="img/copywriting.png" alt="copywriting.png">
+                    <h2 class="fnt-20px fnt-bold mb-30px fnt-montserrat">Copywriting</h2>
+                    <p class="ltr-sp-2px ln-hght-20px fnt-20px fnt-open-s-thin">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="services-section__service-container">
+                    <img src="img/graphic-design.png" alt="graphic-design.png">
+                    <h2 class="fnt-20px fnt-bold mb-30px fnt-montserrat">Graphic Design</h2>
+                    <p class="ltr-sp-2px ln-hght-20px fnt-20px fnt-open-s-thin">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="services-section__service-container">
+                    <img src="img/development.png" alt="development.png">
+                    <h2 class="fnt-20px fnt-bold mb-30px fnt-montserrat">Development</h2>
+                    <p class="ltr-sp-2px ln-hght-20px fnt-20px fnt-open-s-thin">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="benefits-list-section">
-        <div class="benefits-list-section__left-black"></div>
-        <div class="benefits-list-section__cards-wrapper">
-            <div class="card card-wide card-white pad-25">
-                <h2 class="heading-36 heading-bold mb-30 fnt-ubuntu-reg">Video games</h2>
-                <p class="card__text fnt-open-s-thin">Sample text. Click to select the text box. 
-                    Click again or double click to start editing the text.</p>
+            <div class="services-section__service-container__wrapper">
+                <div class="services-section__service-container">
+                    <img src="img/logistics.png" alt="logistics.png">
+                    <h2 class="fnt-20px fnt-bold mb-30px fnt-montserrat">Logistics</h2>
+                    <p class="ltr-sp-2px ln-hght-20px fnt-20px fnt-open-s-thin">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="services-section__service-container">
+                    <img src="img/consultations.png" alt="consultations.png">
+                    <h2 class="fnt-20px fnt-bold mb-30px fnt-montserrat">Consultations</h2>
+                    <p class="ltr-sp-2px ln-hght-20px fnt-20px fnt-open-s-thin">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="services-section__service-container">
+                    <img src="img/web-design.png" alt="web-design.png">
+                    <h2 class="fnt-20px fnt-bold mb-30px fnt-montserrat">Web Design</h2>
+                    <p class="ltr-sp-2px ln-hght-20px fnt-20px fnt-open-s-thin">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
             </div>
-            <div class="card card-wide card-white pad-25">
-                <h2 class="heading-36 heading-bold mb-30 fnt-ubuntu-reg">Brain stimulation</h2>
-                <p class="card__text fnt-open-s-thin">Sample text. Click to select the text box. 
-                    Click again or double click to start editing the text.</p>
+        </section>
+        <section class="about-us-section pad-50px">
+            <h1 class="fnt-48px fnt-bold mb-50px fnt-montserrat">About Us</h1>
+            <div class="about-us-section__tabs">
+                <input type="radio" class="about-us-section__tabs__radio" name="tabs-example" id="tab1" checked>
+                <label for="tab1" class="about-us-section__tabs__label fnt-bold fnt-18px fnt-open-s-reg">Overview</label>
+                <div class="about-us-section__tabs__content pad-20px">
+                    <h3 class="fnt-bold mb-25px fnt-24px fnt-montserrat">Brave is an innovative web solution, which combines captivating design and flawless functionality 
+                      in a multipurpose HTML template.
+                    </h3>
+                    <h4 class="fnt-bold mb-25px fnt-20px ln-hght-35px fnt-open-s-reg">
+                        Sample text. Click to select the text box. 
+                        Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in 
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </h4>
+                    <p class="fnt-20px ln-hght-35px ltr-sp-2px p-650px fnt-open-s-thin">
+                        Sample text. Click to select the text box. Click again or double click to start editing the text. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <input type="radio" class="about-us-section__tabs__radio" name="tabs-example" id="tab2">
+                <label for="tab2" class="about-us-section__tabs__label fnt-bold fnt-18px fnt-open-s-reg">Founder</label>
+                <div class="about-us-section__tabs__content pad-20px">
+                  <p class="fnt-20px ln-hght-35px ltr-sp-2px p-wide mb-50px mt-50px fnt-open-s-thin">
+                    Sample text. Click to select the text box. Click again or double click to start editing the text. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur <br> <br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>
+                <input type="radio" class="about-us-section__tabs__radio" name="tabs-example" id="tab3">
+                <label for="tab3" class="about-us-section__tabs__label fnt-bold fnt-18px fnt-open-s-reg">Mission</label>
+                <div class="about-us-section__tabs__content pad-20px">
+                  <h3 class="fnt-bold mb-25px fnt-24px mt-50px fnt-montserrat">Be The First To Review This Product!</h3>
+                  <p class="fnt-20px ln-hght-35px ltr-sp-2px p-wide mb-25px fnt-open-s-thin">
+                    Sample text. Click to select the text box. Click again or double click to start editing the text.
+                  </p>
+                  <button class="btn btn-blue mb-50px txt-clr-white fnt-montserrat">write product review</button>
+                </div>
+              </div>
+        </section>
+        <section class="build-section pad-50px">
+            <h1 class="fnt-48px fnt-bold mb-50px fnt-montserrat">Build Great Products</h1>
+            <div class="build-section__product-wrapper mb-25px">
+                <img src="img/kitchen-design.jpg" alt="kitchen-design.jpg">
+                <img src="img/cards.jpg" alt="cards.jpg">
+                <img src="img/books.jpg" alt="books.jpg">
             </div>
-            <div class="card card-wide card-white pad-25">
-                <h2 class="heading-36 heading-bold mb-30 fnt-ubuntu-reg">Stress relief</h2>
-                <p class="card__text fnt-open-s-thin">Sample text. Click to select the text box. 
-                    Click again or double click to start editing the text.</p>
+            <div class="build-section__product-wrapper mb-50px">
+                <img src="img/lion.jpg" alt="lion.jpg">
+                <img src="img/failling-cards.jpg" alt="failling-cards.jpg">
+                <img src="img/signboard.jpg" alt="signboard.jpg">
             </div>
-        </div>
-    </section>
-    <section class="top-pc-games-section pad-80">
-        <div class="top-pc-games-section__image-wrapper">
-            <img class="top-pc-games-section__image" src="./img/xccx.jpg" alt="xccx.jpg">
-        </div>
-        <div class="card__wrapper">
-            <div class="card card-small card-white pad-85-35">
-                <h2 class="heading-36 mb-30 fnt-ubuntu-reg">Top PC Games</h2>
-                <p class="card__text mb-30 fnt-open-s-reg fnt-style-italic">Auctor augue mauris augue neque gravida in fermentum et. 
-                    Feugiat in fermentum posuere urna nec tincidunt praesent semper.</p>
-                <button class="button btn-blue btn-14 txt-clr-white mt-50">learn more</button>
+            <button class="btn btn-beige ltr-sp-2px txt-clr-white fnt-open-s-reg">Contact Us</button>
+        </section>
+        <section class="partner-section pad-50px">
+            <div class="partner-section__left-wrapper pad-20px">
+                <h1 class="fnt-48px fnt-bold mb-50px fnt-montserrat">We partner with the world's leading universities</h1>
+                <p class="fnt-16px ln-hght-20px ltr-sp-2px mb-50px fnt-open-s-thin">
+                    Etiam erat velit scelerisque in dictum non consectetur. 
+                    Nisl purus in mollis nunc sed id semper. Cras fermentum odio eu feugiat pretium nibh ipsum.
+                </p>
+                <button class="btn btn-beige fnt-montserrat">read more</button>
             </div>
-        </div>
-        <div class="top-pc-games-section__background-wrapper"></div>
-    </section>
-    <section class="gadgets-section pad-80">
-        <h1 class="gadgets-section__heading heading-bold mb-30 txt-clr-white fnt-ubuntu-reg">Gadgets for your game</h1>
-        <button class="button btn-16-2 btn-white txt-clr-white">view all</button>
-    </section>
-    <section class="free-games-section pad-80">
-        <div class="free-games-section__text">
-            <h1 class="heading-36 mb-30 fnt-ubuntu-reg">Looking for games to download for free?</h1>
-            <p class="card__text fnt-open-s-thin">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum.
+            <div class="partner-section__right-wrapper pad-20px">
+                <div class="partner-section__right-wrapper__tabs">
+                    <input type="radio" class="partner-section__right-wrapper__tabs__radio" name="partner-section" id="partner-section-tab1">
+                    <label for="partner-section-tab1" class="partner-section__right-wrapper__tabs__label fnt-16px fnt-bold fnt-open-s-reg">
+                        Create a Webinar in Minutes
+                        <img class="ml-50px" src="img/plus-icon.png" alt="">
+                    </label>
+                    <div class="partner-section__right-wrapper__tabs__content pad-20px">
+                        <h3 class="fnt-bold fnt-20px mb-30px fnt-open-s-reg">
+                            Interdum velit euismod in pellentesque massa placerat duis. 
+                            Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. 
+                            Nibh nisl condimentum.
+                        </h3>
+
+                        <ul class="partner-section__right-wrapper__tabs__content__list ln-hght-20px fnt-open-s-reg">
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Mattis nunc sed blandit libero volutpat.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Tortor at risus viverra adipiscing at in tellus.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Purus ut faucibus pulvinar elementum.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Blandit turpis cursus in hac habitasse.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="partner-section__right-wrapper__tabs">
+                    <input type="radio" class="partner-section__right-wrapper__tabs__radio" name="partner-section" id="partner-section-tab2">
+                    <label for="partner-section-tab2" class="partner-section__right-wrapper__tabs__label fnt-16px fnt-bold fnt-open-s-reg">
+                        Business Sustainability Management
+                        <img class="ml-50px" src="img/plus-icon.png" alt="">
+                    </label>
+                    <div class="partner-section__right-wrapper__tabs__content pad-20px">
+                        <ul class="partner-section__right-wrapper__tabs__content__list ln-hght-20px fnt-open-s-reg">
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Interdum velit euismod in pellentesque massa.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Tristique et egestas quis ipsum suspendisse ultrices gravidae.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Nibh nisl condimentum id venenatis a condimentum.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Diam volutpat commodo sed egestas egestas fringilla.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="partner-section__right-wrapper__tabs">
+                    <input type="radio" class="partner-section__right-wrapper__tabs__radio" name="partner-section" id="partner-section-tab3">
+                    <label for="partner-section-tab3" class="partner-section__right-wrapper__tabs__label fnt-16px fnt-bold fnt-open-s-reg">
+                            Learn how to grow your business 
+                            <img class="ml-50px" src="img/plus-icon.png" alt="">
+                    </label>
+                    <div class="partner-section__right-wrapper__tabs__content pad-20px">
+                        <ul class="partner-section__right-wrapper__tabs__content__list ln-hght-20px fnt-open-s-reg">
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Mattis nunc sed blandit libero volutpa.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Tortor at risus viverra adipiscing at in tellus.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Purus ut faucibus pulvinar elementum.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Blandit turpis cursus in hac habitasse.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="partner-section__right-wrapper__tabs">
+                    <input type="radio" class="partner-section__right-wrapper__tabs__radio" name="partner-section" id="partner-section-tab4">
+                    <label for="partner-section-tab4" class="partner-section__right-wrapper__tabs__label fnt-16px fnt-bold fnt-open-s-reg">
+                        Practical tips to help you price your products
+                        <img class="ml-50px" src="img/plus-icon.png" alt="">
+                    </label>
+                    <div class="partner-section__right-wrapper__tabs__content pad-20px">
+                        <ul class="partner-section__right-wrapper__tabs__content__list ln-hght-20px fnt-open-s-reg">
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Mattis nunc sed blandit libero volutpa.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Tortor at risus viverra adipiscing at in tellus.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Purus ut faucibus pulvinar elementum.
+                            </li>
+                            <li class="partner-section__right-wrapper__tabs__content__list__element fnt-16px">
+                                Blandit turpis cursus in hac habitasse.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="consulting-section pad-50px">
+            <div class="consulting-section__text-wrapper pad-20px">
+                <h1 class="fnt-48px fnt-bold mb-50px fnt-montserrat">Consulting Successes</h1>
+                <p class="fnt-20px ltr-sp-2px ln-hght-20px mb-25px fnt-open-s-thin">
+                    Sample text. Click to select the text box. Click again or double click to start editing the text.
+                    Sit amet porttitor eget dolor morbi non arcu risus quis. Lacus sed viverra tellus in hac habitasse. 
+                    Nam libero justo laoreet sit. Donec ultrices tincidunt arcu non sodales neque sodales.
+                </p>
+            </div>
+            <div class="consulting-section__squares-wrapper mb-20px">
+                <div class="consulting-section__square consulting-section__square-beige pad-50px">
+                    <img class="mb-20px" src="img/projects-icon.png" alt="projects-icon.png">
+                    <h3 class="fnt-24px fnt-bold txt-clr-white mb-25px fnt-montserrat">Projects</h3>
+                    <h2 class="fnt-60px fnt-bold-bold txt-clr-white fnt-open-s-reg">100</h2>
+                </div>
+                <div class="consulting-section__square consulting-section__square-blue pad-50px">
+                    <img class="mb-20px" src="img/clients-icon.png" alt="clients-icon.png">
+                    <h3 class="fnt-24px fnt-bold txt-clr-white mb-25px fnt-montserrat">Clients</h3>
+                    <h2 class="fnt-60px fnt-bold-bold txt-clr-white fnt-open-s-reg">40</h2>
+                </div>
+            </div>
+            <div class="consulting-section__squares-wrapper">
+                <div class="consulting-section__square consulting-section__square-blue pad-50px">
+                    <img class="mb-20px" src="img/pur-team-icon.png" alt="pur-team-icon.png">
+                    <h3 class="fnt-24px fnt-bold txt-clr-white mb-25px fnt-montserrat">Our Team</h3>
+                    <h2 class="fnt-60px fnt-bold-bold txt-clr-white fnt-open-s-reg">20</h2>
+                </div>
+                <div class="consulting-section__square consulting-section__square-beige pad-50px">
+                    <img class="mb-20px" src="img/awards-icon.png" alt="awards-icon.png">
+                    <h3 class="fnt-24px fnt-bold txt-clr-white mb-25px fnt-montserrat">Awards</h3>
+                    <h2 class="fnt-60px fnt-bold-bold txt-clr-white fnt-open-s-reg">76</h2>
+                </div>
+            </div>
+        </section>
+        <section class="feedback-section pad-50px">
+            <h1 class="fnt-48px fnt-bold mb-50px fnt-montserrat">What People Say</h1>
+            <div class="feedback-section__feedback-wrapper">
+                <div class="feedback-section__feedback-text">
+                    <p class="fnt-20px ltr-sp-2px ln-hght-35px fnt-montserrat">
+                        Article evident arrived express highest men did boy. Mistress sensible entirely am so. 
+                        Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. 
+                        Law others theirs passed but wishes. You day real less till dear read. Considered use dispatched melancholy sympathize discretion led. 
+                        Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. 
+                        In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing.
+                    </p>
+                </div>
+                <div class="feedback-section__feedback-right-part">
+                    <object data="svg/logo.svg" type=""></object>
+                </div>
+            </div>
+        </section>
+        <section class="location-section pad-50px">
+            <div class="location-section__text-wrapper pad-20px">
+                <h2 class="fnt-20px mb-25px fnt-ubuntu ltr-sp-2px">LOCATION</h2>
+                <h1 class="fnt-48px fnt-bold mb-50px fnt-montserrat">121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</h1>
+                <hr class="mb-30px">
+                <p class="fnt-20px ltr-sp-2px ln-hght-20px fnt-open-s-thin">
+                    Sample text. Click to select the text box. 
+                    Click again or double click to start editing the text.
+                </p>
+            </div>
+        </section>
+        <footer class="footer">
+            <p class="footer__text txt-clr-white">
+                Sample text. Click to select the text box. 
+                Click again or double click to start editing the text.
             </p>
-            <button class="button btn-blue btn-16-2 txt-clr-white">read more</button>
-        </div>
-        <div class="free-games-section__image-part">
-            <img class="free-games-section__image-part__image" src="img/xccx.jpg" alt="xccx.jpg">
-            <img class="free-games-section__image-part__image" src="img/girl-vr.jpg" alt="girl-vr.jp">
-            <img class="free-games-section__image-part__image2 ml-150" src="img/boy-controller.jpg" alt="boy-controller.jpg">
-        </div>
-        <div class="free-games-section__image-part__blue-circle__wrapper">
-            <object class="free-games-section__image-part__blue-circle" data="./svg/blue-circle.svg" type="image/svg+xml"></object>
-        </div>
-        <div class="free-games-section__image-part__beige-circle__wrapper">
-            <object class="free-games-section__image-part__beige-circle" data="./svg/beige-circle.svg" type="image/svg+xml"></object>
-        </div>
-    </section>
-    <section class="vr-section">
-        <div class="vr-section__card card pad-85-35 card-white card-small mar-80-80">
-            <h2 class="heading-36 mb-30 fnt-ubuntu-reg">VR-Technologies</h2>
-            <p class="card__text fnt-open-s-thin">
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <button class="button btn-blue txt-clr-white btn-14 mt-50">contact us</button>
-        </div>
-        <object class="vr-section__beige-rectangle" data="./svg/beige-rectangle.svg" type="image/svg+xml"></object>
-        <img class="vr-section__image mt-200" src="img/vr-trio.jpg" alt="vr-trio.jpg">
-    </section>
-    <section class="contact-form-section pad-80">
-        <img class="contact-form-section__image" src="img/contact-form.jpg" alt="contact-form.jpg">
-        <div class="contact-form-section__form-wrapper pad-25">
-            <h2 class="contact-form-section__form-wrapper__heading heading-bold heading-36 mb-30 txt-clr-grey fnt-ubuntu-reg">contact form</h2>
-            <form class="mb-30" action="">
-                <input class="contact-form-section__form-wrapper__input mb-30 form-el fnt-open-s-reg" type="text" placeholder="Enter your Name"> <br>
-
-                <input class="contact-form-section__form-wrapper__input mb-30 form-el fnt-open-s-reg" type="text" placeholder="Enter a valid email adress"> <br>
-
-                <textarea class="contact-form-section__form-wrapper__text-area mb-30 form-el fnt-open-s-reg" name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea> <br>
-
-                <input class="contact-form-section__form-wrapper__submit fnt-open-s-reg" type="submit" value="Submit">
-            </form>
-            <h2 class="contact-form-section__form-wrapper__heading heading-bold heading-36 mb-30 txt-clr-grey fnt-ubuntu-reg">follow us</h2>
-            <div class="contact-form-section__form-wrapper__social-m-wrapper">
-                <object class="contact-form-section__form-wrapper__social-m-wrapper__element" data="./svg/icons8-facebook.svg" type="image/svg+xml"></object>
-                <object class="contact-form-section__form-wrapper__social-m-wrapper__element" data="./svg/icons8-twitter-circled.svg" type="image/svg+xml"></object>
-                <object class="contact-form-section__form-wrapper__social-m-wrapper__element2" data="./svg/instagram-round.svg" type="image/svg+xml"></object>
-                <object class="contact-form-section__form-wrapper__social-m-wrapper__element" data="./svg/icons8-google-plus.svg" type="image/svg+xml"></object>
-            </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <p class="footer__text fnt-open-s-reg txt-clr-white">
-            Sample text. Click to select the text box. 
-            Click again or double click to start editing the text.
-        </p>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>

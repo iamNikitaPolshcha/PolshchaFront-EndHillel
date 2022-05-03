@@ -1,206 +1,130 @@
-/* FONTS START */
-.fnt-ubuntu-reg
-{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
+/*variables [start]*/
+/*variables [end]*/
+/*text color [start]*/
+.txt-clr-white {
+  color: #fff;
 }
 
-.fnt-open-s-thin
-{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+/*text color [end]*/
+/*all about fonts and text [start]*/
+.fnt-ubuntu {
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.fnt-open-s-reg
-{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+.fnt-open-s-thin {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
-.fnt-montserrat-reg
-{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+.fnt-open-s-reg {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.fnt-style-italic
-{
-    font-style: italic;
+.fnt-montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* FONTS END */
-
-/* TEXT COLOR START */
-.txt-clr-white
-{
-    color: #fff;
+.fnt-bold {
+  font-weight: bold;
 }
 
-.txt-clr-grey
-{
-    color: #4d4d4d;
-}
-/* TEXT COLOR END */
-
-/* MARGIN/PADDING START */
-.ml-150
-{
-    margin-left: 150px;
-}
-.mr-150
-{
-    margin-right: 150px;
-}
-.mt-200
-{
-    margin-top: 200px;
-}
-.mb-30
-{
-    margin-bottom: 30px;
-}
-.mt-50
-{
-    margin-top: 50px;
-}
-.pad-85-35
-{
-    padding: 85px 35px;
-}
-.pad-25
-{
-    padding: 25px;
-}
-.pad-80
-{
-    padding: 80px;
-}
-.mar-80-80
-{
-    margin: 80px 80px;
-}
-/* MARGIN/PADDING END */
-
-/* BUTTON START */
-.button
-{
-    font-family: 'Open Sans', sans-serif;
-    height: 50px;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
+.fnt-bold-bold {
+  font-weight: 700;
 }
 
-.btn-14
-{
-    font-size: 14px;
-    width: 160px;
+.fnt-60px {
+  font-size: 60px;
 }
 
-.btn-16
-{
-    font-size: 16px;
-    width: 234px;
+.fnt-48px {
+  font-size: 48px;
 }
 
-.btn-16-2
-{
-    font-size: 16px;
-    width: 150px;
+.fnt-24px {
+  font-size: 24px;
 }
 
-.btn-white
-{
-    background-color: transparent;
-    border: 1px solid #fff;
+.fnt-20px {
+  font-size: 20px;
 }
 
-.btn-white:hover
-{
-    background-color: #fff;
-    color: #000;
+.fnt-18px {
+  font-size: 18px;
 }
 
-.btn-blue
-{
-    background-color: #3a4998;
-    border: 1px solid #3a4998;
-
-}
-.btn-blue:hover
-{
-    background-color: #333;
+.fnt-16px {
+  font-size: 16px;
 }
 
-/* BUTTON END */
-
-/* CARD START */
-.card
-{
-    box-sizing: border-box;
+.ltr-sp-2px {
+  letter-spacing: 2px;
 }
 
-.card-white
-{
-    background-color: #fff;
-    border: 1px solid #f2f2f2;
+.ln-hght-20px {
+  line-height: 20px;
 }
 
-.card-grey
-{
-    background-color: #f2f2f2;
+.ln-hght-35px {
+  line-height: 35px;
 }
 
-.card-small
-{
-    width: 474px;
-    height: 428px;
+/*all about fonts and text [end]*/
+/* margins and paddings [start]*/
+.pad-50px-lft-rght {
+  padding: 0 50px;
 }
 
-.card-big
-{
-    width: 527px;
-    height: 478px;
+.pad-50px {
+  padding: 50px;
 }
 
-.card-wide
-{
-    width: 600px;
-    height: 190px;
-    margin-bottom: 20px;
-
+.pad-20px {
+  padding: 20px;
 }
 
-.heading-36
-{
-    font-size: 36px;
+.mt-50px {
+  margin-top: 50px;
 }
 
-.card__text
-{
-    font-size: 20px;
-    margin-bottom: 15px;
-    line-height: 35px;
-    letter-spacing: 0.5px;
+.mb-50px {
+  margin-bottom: 50px;
 }
 
-/* CARD END */
-
-/* HEADING START */
-.heading-bold
-{
-    font-weight: bold;
+.mb-30px {
+  margin-bottom: 30px;
 }
 
-.heading-regular
-{
-    font-weight: 400;
+.mb-25px {
+  margin-bottom: 25px;
 }
-/* HEADING END */
 
-.form-el
-{
-    background-color: #f2f2f2;
-    color: #111111;
-    border: transparent;
+.mb-20px {
+  margin-bottom: 20px;
 }
+
+.ml-50px {
+  margin-left: 50px;
+}
+
+/* margins and paddings [end]*/
+/* buttons [start]*/
+.btn {
+  height: 56px;
+  width: 231px;
+  border: 1px transparent;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-beige {
+  background-color: #e5bb8d;
+}
+
+.btn-blue {
+  background-color: #3a4998;
+}
+
+/* buttons [end]*/
+/*# sourceMappingURL=utility.css.map */
